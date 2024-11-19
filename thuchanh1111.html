@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="mèo.jpg" alt="hình ảnh một chú mèo">
+    <ul>
+        <li>thuộc tính src chỉ định đường dẫn tới hình ảnh</li>
+        <li>thuộc tính alt chỉ định văn bản thay thế cho hình ảnh khi hình ảnh không hiển thị</li>
+    </ul>
+    <h2>Kích thước hình ảnh</h2> <br>
+    <p>sử dụng thuộc tính style để chỉ chiều rộng và chiều cao của hình ảnh</p> <br>
+    <ol>
+        <li>width: chỉ chiều rộng</li>
+        <li>height: chỉ chiều cao</li>
+        <li>float: cho hình ảnh nổi sang bên phải hoặc bên trái văn bản</li>
+    </ol>
+    <p>Thuộc tính width và height chỉ định chiều rộng và chiều cao của hình ảnh tính bằng px</p> <br>
+    <img src="mèo.jpg" alt="một chú mèo"
+    style="width: 500px;height: 600px;">
+    <p>Các thuộc tính width, height và style đều hợp lệ nhưng khuyến khích sử dụng <b>style</b></p> <br>
+    <h2>Hình ảnh động</h2> <br>
+    <img src="hinh-anh-dong-powerpoint-3.gif" alt="hình ảnh động"
+    style="width: 500px; height: 600px;">
+    <h2>Hình ảnh như một liên kết</h2>
+    <a href="https://blogphotoshop.com/anh-dong/">
+        <img src="hinh-anh-dong-powerpoint-3.gif" alt="hình ảnh động"
+        style="width: 500px; height: 600px;">
+    </a>
+    <p><img src="hinh-anh-dong-powerpoint-3.gif" alt="hình ảnh động"
+    style="float: right;width: 500px;height: 600px;"></p>
+    <hr>
+     <h2>Bản đồ hình ảnh</h2>
+     <p>Thẻ map: định nghĩa một bản đồ hình ảnh. Bản đồ hình ảnh là một hình ảnh có các vùng <b>có thể nhấp được</b> <br>
+     Các vùng được định nghĩa bằng một hoặc nhiều thẻ area </p> <br>
+     <hr>
+     <h2>Hình nền trên một phần tử HTLM</h2>
+     <p>Sử dụng thuộc tính <b>style</b> và thuộc tính <b>background-image</b></p> <br>
+     <p style="background-image: url(mèo.jpg);">Ví dụ minh họa</p> <br>
+     <p>Chỉ định hình ảnh nền trong phần tử <b>style</b> trong phần tử <b>head</b> </p><br>
+     <hr>
+     <h2>Thêm hình nền cho toàn bộ trang</h2>
+     <p>Muốn toàn bộ trag có nền phải chỉ định nền trên phần tử <b>body</b></p> <br>
+     <p>Để tránh hình nền bị lặp lại<b>đặt thuộc tính background-repeat thành no-repeat</b> </p> <br>
+     <p>Muốn hình nền bao phủ toàn bộ phần tử, <b>đặt background-size thành cover</b></p> <br>
+     <p>Để toàn bộ phần tử luôn được bao phủ, <b>đặt background-attachment thành fixed</b></p> <br>
+     <p>Nếu muốn nền kéo dài vừa với toàn bộ phần tử, <b>đặt thuộc tính background-size thành 100% 100%</b></p> <br>
+     <picture>
+        <source srcset="FBA.jpg">
+        <source srcset="meo.jpg">
+        <img src="ảnh nền.jpg" alt="ảnh nền máy tính">
+     </picture>
+     <p style="color: rgb(226, 100, 100);">Trình duyệt sẽ sử dụng phần tử source đầu tiên có giá trị thuộc tính khớp và bỏ qua mọi phần tử source theo sau</p> <br>
+     <p style="color: rgb(237, 112, 112);">Luôn chỉ định một phần tử img là phần tử con cuối cùng của phần tử picture. Phần tử img được sử dụng bởi các trình duyệt không hỗ trợ phần tử picture hoặc nếu không có thẻ source nào khớp.</p> <br>
+     <hr>
+     <h2>Bảng</h2>
+     <p>Các ô của bảng được xác định bằng thẻ td </p> <br>
+     <p>td là viết tắt của dữ liệu bảng</p> <br>
+     <p>Mỗi hàng của bảng được xác định bằng thẻ tr</p> <br>
+     <p>Thẻ tr là viết tắt của hàng trong bảng</p> <br>
+     <p>Các ô tiêu đề bảng được xác định bằng thẻ th</p> <br>
+     <p>Thẻ th viết tắt của tiêu đề bảng</p> <br>
+     <p>Ví dụ</p> <br>
+     <p>Thẻ bảng HTML</p> <br>
+     <table>
+        <tr>
+            <th>Tên thẻ</th>
+            <th>Ý nghĩa biểu diễn</th>
+        </tr>
+        <tr>
+            <td>Thẻ table</td>
+            <td>Tạo bảng trong HTLM</td>
+        </tr>
+        <tr>
+            <td>Thẻ tr</td>
+            <td>Xác định dòng trong bảng</td>
+        </tr>
+        <tr>
+            <td>Thẻ td</td>
+            <td>Xác định ô trong bảng</td>
+        </tr>
+        <tr>
+            <td>Thẻ th</td>
+            <td>Xác định ô tiêu đề trong bảng</td>
+        </tr>
+     </table>
+  <p>Đường viền bo tròn các góc: sử dụng thẻ border-radius</p> <br>
+  <p>Bỏ đường viền xung quanh bảng bằng cách bỏ table chọn css</p>  <br>
+  <p>Đường viền bảng chấm bi: dùng thẻ border-style</p><br>
+  <p>Màu viền: sử dụng thuộc tính border-color</p> <br>
+  <p>Thiết lập chiều rộng của bảng, thêm thuộc tính style vào phần tử table</p> <br>
+  <p>Đơn vị kích thước cho chiều rộng là đơn vị %</p> <br>
+  <p>Chiều cao hàng của bảng đơn vị là px</p>
+</body>
+</html>

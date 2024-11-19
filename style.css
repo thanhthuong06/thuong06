@@ -1,0 +1,22 @@
+
+    body{
+        background-color: rgb(242, 240, 224);
+    }
+    h1{
+        color: rgb(199, 204, 163);
+       
+    }
+    p {
+        font-size: larger;
+
+    }
+   .bg-color{
+    color: rgb(124, 138, 144);
+   }
+     .font{
+        font-size: 25px;
+     }   
+   .color{
+    background: rgb(236, 182, 89);
+    color: aliceblue;
+   }
