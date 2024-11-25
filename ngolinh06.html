@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style22.css">
+</head>
+<body>
+    <h1>Biểu mẫu thông tin</h1>
+    <form action="thực hành buổi 5" method="get">
+   <!-- Họ và tên -->
+    <label for="name">Họ và tên:</label> <br>
+    <input type="text" id="name" name=" name" placeholder="Nhập họ và tên của bạn tại đây" requied> <br>
+
+    <!-- Email -->
+     <lable for="email">Email:</lable> <br>
+     <input type="text" id="email" name="email" placeholder="Nhập email tại đây" requied> <br>
+
+     <!-- Mật khẩu -->
+      <lable for="pass">Mật khẩu:</lable> <br>
+      <input type="text" id="Mật khẩu" name="Mật khẩu" placeholder="Nhập mật khẩu tại đây" requied> <br>
+      
+      <!-- Ngày sinh -->
+       <lable for="date">Ngày sinh: </lable> <br>
+       <input type="date" id="date" name="date" required> <br>
+
+       <!-- Giới tính -->
+       <label>Giới tính:</label> <br>
+       <input type="radio" id="male" name="gender" value="Nam">
+       <label for="male">Nam</label>
+       <input type="radio" id="female" name="gender" value="Nữ">
+       <label for="female">Nữ</label>
+       <br>
+        <!-- Sở thích -->
+         <lable>Sở thích:</lable> <br>
+         <label>
+            <input type="checkbox" name="Sở thích" value="Đọc sách"> Đọc sách
+         </input>
+         <lable>
+            <input type="checkbox" name="Sở thích" value="Du lịch"> Du lịch
+         </lable>
+         <label>
+            <input type="checkbox" name="Sở thích" value="Nghe nhạc"> Nghe nhạc
+         </label> <br>
+
+         <!-- Tải ảnh lên -->
+          <lable for="avatar">Tải lên ảnh đại diện </lable> <br>
+          <input type="file" id="avatar" name="avatar" accept="image/*"> <br>
+
+          <!-- Nút Gửi -->
+          <input  type="submit" value="Gửi">
+          
+            
+    </input>
+    
+</body>
+</html>
