@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        h1{
+            color: #e09898;
+        }
+        .hello{
+            size: 12px;
+        }
+        #hello{
+            color: #2b2222;
+        }
+        div p{
+            color: rgb(162, 162, 245);
+            padding-top: 50px;
+            margin: 5px 10px 12px 10px;
+            border: 2px solid black;
+        }
+        p{
+            color: gray;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+        p:hover{
+            color: aquamarine;
+        }
+        p:active{
+            color: #9ad413;
+        }
+        .hello:first-child{
+            color: bisque;
+
+        }
+        p::first-line{
+            color: #e09898;
+            font-size: larger;
+        }
+        p::first-letter{
+            color: #9ad413;
+            font-size: 25px;
+        }
+        body{
+            background-color: rgb(228, 214, 197);
+          
+        }
+        .thuong p{
+            color: blue;
+        }
+        .thuong > section{
+            border: 1px solid black;
+        }
+        h1 + p {
+            font-weight: bold;
+        }
+        h1 ~ p{
+            font-style: italic;
+        }
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nguyễn Thị Thanh Thương</h1>
+    <h2 class="hello" id="hello">Buổi học thứ 4</h2>
+    <div class="hello">
+        <p>Họ và tên:</p>
+        <p>Nguyễn Thị Thanh Thương</p>
+        <p>Địa chỉ:</p>
+        <p>Trần Bình, Mai Dịch, Cầu Giấy, Hà Nội</p>
+        <h1>Buổi thực hành thứ 4</h1>
+    </div>
+    <p>Công cha như núi Thái Sơn <br>
+        Nghĩa mẹ như nước trong nguồn chảy ra <br>
+        Một lòng thờ mẹ kính cha <br>
+        Cho tròn chữ hiếu mới là đạo con</p>
+    <div class="thuong">
+        <h1>Tiêu đề chính</h1>
+        <p>Đoạn văn 1</p>
+        <p>Đoạn văn 2</p>
+        <section>
+            <p>Đoạn văn trong section</p>
+        </section>
+    </div>
+
+    
+</body>
+</html>
